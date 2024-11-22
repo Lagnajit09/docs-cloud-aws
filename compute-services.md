@@ -77,7 +77,7 @@ Amazon EC2 is a web service that provides resizable cloud computing capacity in 
 - Elastic Beanstalk is an AWS service for deployingand scaling web applications and services.Customers can upload their code and let Elastic Beanstalk automatically handle the deployment. In other words, you do the Dev, Beanstalk does the Ops in the DevOps environment.
 - Beanstalk does everything from capacity provisioning, load balancing, and auto scaling to application health monitoring. With the Elastic Beanstalk, you can rapidly launch web applications. Deploy scalable web applications in minutes without the overhead of provisioning and handling the underlying infrastructure.
 
-![AWS Elastic Beanstalk](assets\elastic-beanstalk.png)
+![AWS Elastic Beanstalk](https://github.com/Lagnajit09/docs-cloud-aws/blob/main/assets/elastic-beanstalk.png?raw=true)
 You can set up your application with your own code and runtime with the Beanstalk platform.Then launch your resources for your environment with an Infrastructure as a Service CloudFormation template or S3 Buckets and then monitor with Amazon CloudWatch.
 
 #### Comprehensive Features
@@ -106,7 +106,7 @@ Containers are lightweight, portable, and self-sufficient software environments 
 - A container is a discrete environment within an operating system or more recently, a serverless architecture where one or more applications can run. It is typically assigned all the resources and dependencies needed to function.
 - A container is a modular and portable environment that includesthe application binaries,software dependencies and hardware requirements wrapped up into an independent,self-contained unit.
 
-![VM vs Container](assets\vm-vs-container.png)
+![VM vs Container](https://github.com/Lagnajit09/docs-cloud-aws/blob/main/assets/vm-vs-container.png?raw=true)
 - The container engine runs on top of a host operating system, traditionally. Within the container, you have the binaries and the libraries and one or more applications or microservices. While a Virtual Machine (VM) is a full abstraction of an operating system, a container is a constrained place to run segregated processes while still utilizing the kernel and other capabilities of the base operating system or an infrastructure provided by the cloud provider, for example, the aforementioned AWS Fargate.
 - With traditional virtual machines, the Hypervisor or Virtual Machine Manager runs on the operating system. In a containerized environment, the container runtime, for instance, Docker runs on the operating system. Within the container runtime, you have multiple containers, each with their own libraries and applications.
 
@@ -178,7 +178,7 @@ The service offers an efficient GUI, to construct scaling plans and launch templ
 Load balancing is a technique for allocating network traffic equally across a pool of resources.
 A load balancer is a device that is placed between the client and the server group and functions as a transparent mediator. At AWS, an Application Load Balancer is a public-facing load balancer. A Network Load Balancer, typically load balances between availability zones. And a Gateway Load Balancer, load balances between virtual appliances.These load balancing services ensure that all resource servers are leveraged equally, by providing: scalability, security, and performance.
 
-![AWS Application Load Balancer](assets\load-balancer-working.png)
+![AWS Application Load Balancer](https://github.com/Lagnajit09/docs-cloud-aws/blob/main/assets/load-balancer-working.png?raw=true)
 #### Working:
 - The source traffic can be IPV4 or IPV6. It can come from the public internetor it can be from internal workloads, operating in AWS Regions, Local Zones and AWS Outposts or hybrid cloud.
 - The Elastic Application Load Balancer can do user authentication, provide rich metrics and logging. It can redirect to various targets such as an EC2 Auto Scaling group, Lambda functions, Fargate containers in the cloud,EKS, ECS or an IP address.
