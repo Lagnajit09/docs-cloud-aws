@@ -9,7 +9,7 @@
 5. [Security Groups in EC2](#why-do-we-select-or-create-a-security-group-when-creating-an-instance)
 6. [Keypair in EC2](#why-do-we-need-a-key-pair)
 7. [Storage Options in EC2](#how-to-attach-storage-to-ec2-instances)
-8. [User Scaling Options in EC2](#how-to-run-user-scripts-in-ec2-instances)
+8. [User Scripting Options in EC2](#how-to-run-user-scripts-in-ec2-instances)
 
 ## What is EC2?
 AWS EC2 (Elastic Compute Cloud) is a service provided by Amazon Web Services (AWS) that allows you to rent virtual servers, known as EC2 instances, to run your applications. You can think of it as renting a computer in the cloud that you can configure to meet your specific needs.
