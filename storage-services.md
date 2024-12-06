@@ -1,5 +1,16 @@
 # AWS Storage Solutions: A Comprehensive Guide
 
+## Table of Contents
+
+1. [Introduction to AWS Storage](#introduction-to-aws-storage)  
+2. [Amazon S3 (Simple Storage Service)](#amazon-s3-simple-storage-service)  
+3. [Amazon EFS (Elastic File System)](#amazon-efs-elastic-file-system)  
+4. [Amazon EBS (Elastic Block Store)](#amazon-ebs-elastic-block-store)  
+5. [AWS Storage Gateway](#what-is-aws-storage-gateway)  
+6. [Choosing the Right Storage Solution](#choosing-the-right-storage-solution)  
+7. [Best Practices](#best-practices)  
+8. [Conclusion](#conclusion)  
+
 ## Introduction to AWS Storage
 
 Amazon Web Services (AWS) offers multiple storage solutions designed to meet different application needs, each with unique characteristics and use cases. This guide will explore the primary AWS storage services: Amazon S3, Amazon EFS (Elastic File System), and Amazon EBS (Elastic Block Store).
